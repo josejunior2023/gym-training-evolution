@@ -1,0 +1,23 @@
+{
+  "name": "gym-training-evolution",
+  "version": "1.0.0",
+  "description": "Aplicativo voltado para auxiliar na progressão de cargas, repetições e series executadas nos exercícios de academia, assim visando maior evolução para o usuário.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/josejunior2023/gym-training-evolution.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josejunior2023/gym-training-evolution/issues"
+  },
+  "homepage": "https://github.com/josejunior2023/gym-training-evolution#readme",
+  "dependencies": {
+    "materialize": "^1.0.0"
+  }
+}
