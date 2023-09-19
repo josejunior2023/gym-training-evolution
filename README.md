@@ -1,10 +1,8 @@
 # gym-training-evolution
 #link compartilhado figma: https://www.figma.com/file/osdQyPsGQG9sbTWSSot4vQ/GymTrainingEvolution?type=design&node-id=2%3A6&mode=design&t=8EcfwoU1JUqoZ274-1
-# roubank-css
+# gym-training-evolution
 
-Este projeto tem como objetivo implementar progressivamente e de forma didática uma aplicação web inspirada em operações comuns de instituições financeiras (ex: saque, depósito, extrato, saldo, cadastro), sendo o diferencial, a cobrança de taxas de forma abusiva para cada operação realizada pelo cliente.
-
-O frontend da aplicação foi desenvolvido com HTML, CSS e JavaScript e o backend foi simulado pela implementação de uma API Fake, usando o JSON Server.
+Aplicativo voltado para auxiliar na progressão de cargas, repetições e series executadas nos exercícios de academia, assim visando maior evolução para o usuário.
 
 ## Endereço de Deploy - GitHub Pages
 
