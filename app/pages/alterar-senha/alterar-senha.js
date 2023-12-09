@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
             localStorage.setItem('senha', novaSenha);
 
             // Redirecionar para a página de login (index.html)
-            window.location.href = 'index.html';
+            window.location.href = '/app/index.html';
         }
     });
 });

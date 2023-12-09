@@ -150,3 +150,7 @@ input[type="submit"] {
 a:hover {
     background-color: #ffffff0e;
 }
+
+::placeholder {
+    opacity: 25%;
+}

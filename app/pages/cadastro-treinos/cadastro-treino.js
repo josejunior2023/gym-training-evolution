@@ -21,6 +21,6 @@ document.addEventListener('DOMContentLoaded', function () {
         localStorage.setItem('treinos', JSON.stringify(treinos));
 
         // Redirecione para a página tela inicial
-        window.location.href = 'tela-inicial.html';
+        window.location.href = '/app/pages/tela-inicial/tela-inicial.html';
     });
 });

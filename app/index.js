@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         if (usuario === storedUsuario && senha === storedSenha) {
             // Redirecionar para a página inicial (pagina-inicial.html)
-            window.location.href = 'tela-inicial.html';
+            window.location.href = '/app/pages/tela-inicial/tela-inicial.html';
         } else {
             // Exibir mensagens de erro com uma transição visual
             $('#usuarioError, #senhaError')

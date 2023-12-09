@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gym Training Evolution</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="/app/style.css">
+    <link rel="stylesheet" href="/assets/libraries/materialize-css/dist/css/materialize.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
     <div class="logo center">
-        <img src="logo.png" alt="Logo">
+        <img src="/assets/resources/images/logo.png" alt="Logo">
     </div>
     <div class="name-app">
         <h1 class="center-align black-text"><strong>GYM TRAINING EVOLUTION</strong></h1>
@@ -21,49 +22,49 @@
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="usuario" type="text" class="validate" pattern="[a-zA-Z0-9]+" title="Apenas letras e números sem espaço são permitidos" required>
+                    <input id="usuario" placeholder="Ex: Jose" type="text" class="validate" pattern="[a-zA-Z0-9]+" title="Apenas letras e números sem espaço são permitidos" required>
                     <label for="usuario">Usuário</label>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="senha" type="password" class="validate" pattern=".{4,}" title="A senha deve ter pelo menos 4 caracteres." required>
+                    <input id="senha" placeholder="Ex: 1234" type="password" class="validate" pattern=".{4,}" title="A senha deve ter pelo menos 4 caracteres." required>
                     <label for="senha">Senha</label>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="celular" type="text" class="validate" required>
+                    <input id="celular" placeholder="(00)00000-0000" type="text" class="validate" required>
                     <label for="celular">Celular</label>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="cep" type="text" class="validate" onblur="pesquisacep(this.value);" required>
+                    <input id="cep" placeholder="00000-000" type="text" class="validate" onblur="pesquisacep(this.value);" required>
                     <label for="cep">CEP</label>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="logradouro" type="text" class="validate" required>
+                    <input id="logradouro" placeholder="Ex: Rua Conde D'eu" type="text" class="validate" required>
                     <label for="logradouro">Logradouro</label>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="bairro" type="text" class="validate" required>
+                    <input id="bairro" placeholder="Ex: Vila Carli" type="text" class="validate" required>
                     <label for="bairro">Bairro</label>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="cidade" type="text" class="validate" required>
+                    <input id="cidade" placeholder="Ex: Guarapuava" type="text" class="validate" required>
                     <label for="cidade">Cidade</label>
                 </div>
             </div>
             <div class="row">
                 <div class="input-field col s12">
-                    <input id="uf" type="text" class="validate" required>
+                    <input id="uf" placeholder="Ex: PR" type="text" class="validate" required>
                     <label for="uf">UF</label>
                 </div>
             </div>
@@ -85,6 +86,6 @@
     <script src="/app/pages/novo-usuario/novo-usuario.js"></script>
     <script src="/assets/libraries/jquery/dist/jquery.min.js"></script>
     <script src="/assets/libraries/jquery/dist/jquery.mask.min.js"></script>
-    <script src="/assets/libraries/materialize-css/dist/css/materialize.min.css"></script>
+    <script src="/assets/libraries/materialize-css/dist/js/materialize.min.js"></script>
 </body>
 </html>

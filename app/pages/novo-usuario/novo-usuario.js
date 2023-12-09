@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 localStorage.setItem('senha', senha);
 
                 // Depois, redirecione para index.html
-                window.location.href = 'index.html';
+                window.location.href = '/app/index.html';
             }
         });
     } else {
