@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Training Evolution</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body class="tela-inicial">
+    <header>
+        <div class="row col s12 red-header color-red">
+            <div class="col s12 center-align">
+                <img class="img-header" src="logo-dentro-app.png">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="col s12">
+            <form action="tela-inicial.html" method="post" class="form-historico color-red">
+                <table>
+                    <tr>
+                        <td>Último Treino</td>
+                        <td><input type="text" name="treino" required disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Dia/Mês/Ano</td>
+                        <td><input class="black-text" type="date" name="data" required disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Hora</td>
+                        <td><input class="black-text" type="time" name="hora" required disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Repeticões</td>
+                        <td><input class="black-text" type="number" name="repeticoes" required disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Séries</td>
+                        <td><input class="black-text" type="number" name="series" required disabled></td>
+                    </tr>
+                    <tr>
+                        <td>Peso/kg</td>
+                        <td><input type="number" name="peso" required disabled></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </main>
+    <nav>
+        <div class="row col s12 color-red">
+            <div class="col s6 center-align">
+                <a href="tela-inicial.html" class="black-text bold">
+                    <i class="material-icons icon-navbar">home</i>
+                    <h3 class="hide-on-small-only">HOME</h3>
+                </a>
+            </div>
+            <div class="col s6 center-align">
+                <a href="historico-treinos.html" class="black-text bold">
+                    <i class="material-icons icon-navbar">folder</i>
+                    <h3 class="hide-on-small-only">TREINOS</h3>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <script src="/app/pages/historico-treinos/historico-treinos.js"></script>
+    <script src="/assets/libraries/materialize-css/dist/css/materialize.min.css"></script>
+</body>
+</html>

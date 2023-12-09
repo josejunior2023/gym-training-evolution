@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/josejunior2023/gym-training-evolution#readme",
   "dependencies": {
-    "materialize": "^1.0.0"
+    "jquery": "^3.7.1",
+    "jquery-mask-plugin": "^1.14.16",
+    "materialize": "^1.0.0",
+    "materialize-css": "^1.0.0"
   }
 }

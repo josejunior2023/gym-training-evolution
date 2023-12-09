@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM TRAINING EVOLUTION</title>
+    <link rel="stylesheet" href="/app/style.css">
+    <link rel="stylesheet" href="/assets/libraries/materialize-css/dist/css/materialize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="logo center">
+        <img src="/assets/resources/images/logo.png" alt="Logo">
+    </div>
+    <div class="name-app center-align">
+        <h1 class="black-text"><strong>GYM TRAINING EVOLUTION</strong></h1>
+    </div>
+    <div class="z-depth-5 container">
+        <form id="cadastroForm">
+            <div class="account-icon center">
+                <i class="large material-icons">account_box</i>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="usuario" type="text" class="validate" required>
+                    <label for="usuario">Usuário</label>
+                    <div id="usuarioError" class="red-text" style="display: none;"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12">
+                    <input id="senha" type="password" class="validate" required>
+                    <label for="senha">Senha</label>
+                    <div id="senhaError" class="red-text" style="display: none;"></div>
+                </div>
+            </div>
+            <div class="row center-align">
+                <div class="col s12">
+                    <button class="btn black-text red accent-4" type="submit" name="action">Entrar</button>
+                </div>
+            </div>
+        </form>
+        <div class="row center-align">
+            <div class="col s12">
+                <a href="/app/pages/novo-usuario/novo-usuario.html" class="white-text decoration-text">Criar nova conta</a>
+                <br>
+                <a href="/app/pages/alterar-senha/alterar-senha.html" class="white-text decoration-text">Esqueceu sua senha?</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="/app/index.js"></script>
+    <script src="/assets/libraries/jquery/dist/jquery.min.js"></script>
+    <script src="/assets/libraries/materialize-css/dist/js/materialize.min.js"></script>
+</body>
+</html>
