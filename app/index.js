@@ -10,14 +10,13 @@ document.addEventListener('DOMContentLoaded', function () {
         var storedUsuario = localStorage.getItem('usuario');
         var storedSenha = localStorage.getItem('senha');
 
-        // Limpar mensagens de erro e ocultar com uma transição visual
+        //Limpa as mensagens de erro e oculta com uma transição visual.
         $('#usuarioError, #senhaError').fadeOut();
 
         if (usuario === storedUsuario && senha === storedSenha) {
-            // Redirecionar para a página inicial (pagina-inicial.html)
             window.location.href = '/app/pages/tela-inicial/tela-inicial.html';
         } else {
-            // Exibir mensagens de erro com uma transição visual
+            //Mostra mensagens de erro com transição visual.
             $('#usuarioError, #senhaError')
                 .text('Usuário ou senha incorretos.')
                 .fadeIn();

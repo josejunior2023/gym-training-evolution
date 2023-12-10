@@ -13,14 +13,12 @@ document.addEventListener('DOMContentLoaded', function () {
             peso: form.elements['peso'].value
         };
 
-        // Adicione o novo treino à lista de treinos
+        //Adiciona o novo treino.
         var treinos = JSON.parse(localStorage.getItem('treinos')) || [];
         treinos.push(treino);
 
-        // Atualize a lista de treinos no localStorage
+        //Atualiza o histórico de treinos.
         localStorage.setItem('treinos', JSON.stringify(treinos));
-
-        // Redirecione para a página tela inicial
         window.location.href = '/app/pages/tela-inicial/tela-inicial.html';
     });
 });
