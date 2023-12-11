@@ -1,16 +1,14 @@
 # gym-training-evolution
-#link compartilhado figma: https://www.figma.com/file/osdQyPsGQG9sbTWSSot4vQ/GymTrainingEvolution?type=design&node-id=2%3A6&mode=design&t=8EcfwoU1JUqoZ274-1
-# gym-training-evolution
 
 Aplicativo voltado para auxiliar na progressão de cargas, repetições e series executadas nos exercícios de academia, assim visando maior evolução para o usuário.
 
-## Endereço de Deploy - GitHub Pages
+## Endereço de Deploy - GitHub Pages (não funcionou corretamente)
 
-https://utfpr-gp.github.io/roubank-css/
+https://josejunior2023.github.io/gym-training-evolution/app/
 
 ## Protótipo
 
-https://www.figma.com/file/a1VDbO1aNfZyulQPxT99OE/beleza-em-dia?node-id=3%3A80
+https://www.figma.com/file/osdQyPsGQG9sbTWSSot4vQ/GymTrainingEvolution?type=design&node-id=0-1&mode=design&t=cpa7XxSK22SpyJzo-0
 
 ## Link video do projeto no youtube
 
